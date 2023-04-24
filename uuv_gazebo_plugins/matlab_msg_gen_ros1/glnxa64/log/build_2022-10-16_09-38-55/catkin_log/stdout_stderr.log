@@ -1,0 +1,305 @@
+CMake Warning (dev) in CMakeLists.txt:
+  No project() command is present.  The top-level CMakeLists.txt file must
+  contain a literal, direct call to the project() command.  Add a line of
+  code such as
+
+    project(ProjectName)
+
+  near the top of the file, but after cmake_minimum_required().
+
+  CMake is pretending there is a "project(Project)" command on the first
+  line.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+CMake Deprecation Warning at CMakeLists.txt:4 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Using CATKIN_DEVEL_PREFIX: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/devel
+-- Using CMAKE_PREFIX_PATH: /usr/local/Polyspace/R2021a/sys/ros1/glnxa64/ros1;/usr/local/Polyspace/R2021a/toolbox/ros/mlroscpp/custom_messages
+-- This workspace overlays: /usr/local/Polyspace/R2021a/sys/ros1/glnxa64/ros1;/usr/local/Polyspace/R2021a/toolbox/ros/mlroscpp/custom_messages
+-- Found PythonInterp: /home/fyp/.matlab/R2021a/ros1/glnxa64/venv/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /home/fyp/.matlab/R2021a/ros1/glnxa64/venv/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: off
+-- catkin 0.7.17
+-- BUILD_SHARED_LIBS is on
+-- BUILD_SHARED_LIBS is on
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ~~  traversing 1 packages in topological order:
+-- ~~  - uuv_gazebo_ros_plugins_msgs
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- +++ processing catkin package: 'uuv_gazebo_ros_plugins_msgs'
+-- ==> add_subdirectory(uuv_gazebo_ros_plugins_msgs)
+-- Disabling the following message generators: geneus;genlisp;gennodejs
+-- Using these message generators: gencpp;genpy
+-- uuv_gazebo_ros_plugins_msgs: 3 messages, 10 services
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    Boost_NAMESPACE
+
+
+-- Build files have been written to: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/build
+[1/56] cd /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/build/uuv_gazebo_ros_plugins_msgs && /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/fyp/.matlab/R2021a/ros1/glnxa64/venv/bin/python2 /usr/local/Polyspace/R2021a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py uuv_gazebo_ros_plugins_msgs /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/src/uuv_gazebo_ros_plugins_msgs/srv/GetThrusterEfficiency.srv
+[2/56] cd /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/build/uuv_gazebo_ros_plugins_msgs && /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/fyp/.matlab/R2021a/ros1/glnxa64/venv/bin/python2 /usr/local/Polyspace/R2021a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py uuv_gazebo_ros_plugins_msgs /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/src/uuv_gazebo_ros_plugins_msgs/srv/GetListParam.srv
+[3/56] cd /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/build/uuv_gazebo_ros_plugins_msgs && /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/fyp/.matlab/R2021a/ros1/glnxa64/venv/bin/python2 /usr/local/Polyspace/R2021a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py uuv_gazebo_ros_plugins_msgs /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/src/uuv_gazebo_ros_plugins_msgs/srv/GetFloat.srv
+[4/56] cd /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/build/uuv_gazebo_ros_plugins_msgs && /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/fyp/.matlab/R2021a/ros1/glnxa64/venv/bin/python2 /usr/local/Polyspace/R2021a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py uuv_gazebo_ros_plugins_msgs /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/src/uuv_gazebo_ros_plugins_msgs/srv/SetFloat.srv
+[5/56] cd /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/build/uuv_gazebo_ros_plugins_msgs && /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/fyp/.matlab/R2021a/ros1/glnxa64/venv/bin/python2 /usr/local/Polyspace/R2021a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py uuv_gazebo_ros_plugins_msgs /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/src/uuv_gazebo_ros_plugins_msgs/srv/GetModelProperties.srv geometry_msgs/Vector3:uuv_gazebo_ros_plugins_msgs/UnderwaterObjectModel:geometry_msgs/Inertia
+[6/56] cd /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/build/uuv_gazebo_ros_plugins_msgs && /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/fyp/.matlab/R2021a/ros1/glnxa64/venv/bin/python2 /usr/local/Polyspace/R2021a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py uuv_gazebo_ros_plugins_msgs /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/src/uuv_gazebo_ros_plugins_msgs/msg/ThrusterConversionFcn.msg
+[7/56] cd /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/build/uuv_gazebo_ros_plugins_msgs && /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/fyp/.matlab/R2021a/ros1/glnxa64/venv/bin/python2 /usr/local/Polyspace/R2021a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py uuv_gazebo_ros_plugins_msgs /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/src/uuv_gazebo_ros_plugins_msgs/srv/GetThrusterConversionFcn.srv uuv_gazebo_ros_plugins_msgs/ThrusterConversionFcn
+[8/56] cd /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/build/uuv_gazebo_ros_plugins_msgs && /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/fyp/.matlab/R2021a/ros1/glnxa64/venv/bin/python2 /usr/local/Polyspace/R2021a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py uuv_gazebo_ros_plugins_msgs /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/src/uuv_gazebo_ros_plugins_msgs/srv/SetUseGlobalCurrentVel.srv
+[9/56] cd /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/build/uuv_gazebo_ros_plugins_msgs && /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/fyp/.matlab/R2021a/ros1/glnxa64/venv/bin/python2 /usr/local/Polyspace/R2021a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py uuv_gazebo_ros_plugins_msgs /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/src/uuv_gazebo_ros_plugins_msgs/msg/FloatStamped.msg std_msgs/Header
+[10/56] cd /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/build/uuv_gazebo_ros_plugins_msgs && /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/fyp/.matlab/R2021a/ros1/glnxa64/venv/bin/python2 /usr/local/Polyspace/R2021a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py uuv_gazebo_ros_plugins_msgs /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/src/uuv_gazebo_ros_plugins_msgs/srv/GetThrusterState.srv
+[11/56] cd /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/build/uuv_gazebo_ros_plugins_msgs && /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/fyp/.matlab/R2021a/ros1/glnxa64/venv/bin/python2 /usr/local/Polyspace/R2021a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py uuv_gazebo_ros_plugins_msgs /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/src/uuv_gazebo_ros_plugins_msgs/msg/UnderwaterObjectModel.msg geometry_msgs/Vector3:geometry_msgs/Inertia
+[12/56] cd /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/build/uuv_gazebo_ros_plugins_msgs && /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/fyp/.matlab/R2021a/ros1/glnxa64/venv/bin/python2 /usr/local/Polyspace/R2021a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py uuv_gazebo_ros_plugins_msgs /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/src/uuv_gazebo_ros_plugins_msgs/srv/SetThrusterEfficiency.srv
+[13/56] cd /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/build/uuv_gazebo_ros_plugins_msgs && /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/fyp/.matlab/R2021a/ros1/glnxa64/venv/bin/python2 /usr/local/Polyspace/R2021a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py uuv_gazebo_ros_plugins_msgs /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/src/uuv_gazebo_ros_plugins_msgs/srv/SetThrusterState.srv
+[14/56] Generating Python from MSG uuv_gazebo_ros_plugins_msgs/ThrusterConversionFcn
+[15/56] Generating C++ code from uuv_gazebo_ros_plugins_msgs/FloatStamped.msg
+[16/56] Generating C++ code from uuv_gazebo_ros_plugins_msgs/GetThrusterConversionFcn.srv
+[17/56] Generating C++ code from uuv_gazebo_ros_plugins_msgs/GetFloat.srv
+[18/56] Generating C++ code from uuv_gazebo_ros_plugins_msgs/GetModelProperties.srv
+[19/56] Generating C++ code from uuv_gazebo_ros_plugins_msgs/GetThrusterState.srv
+[20/56] Generating C++ code from uuv_gazebo_ros_plugins_msgs/GetThrusterEfficiency.srv
+[21/56] Generating C++ code from uuv_gazebo_ros_plugins_msgs/GetListParam.srv
+[22/56] Generating Python from MSG uuv_gazebo_ros_plugins_msgs/FloatStamped
+[23/56] Generating Python code from SRV uuv_gazebo_ros_plugins_msgs/GetListParam
+[24/56] Generating C++ code from uuv_gazebo_ros_plugins_msgs/ThrusterConversionFcn.msg
+[25/56] Generating C++ code from uuv_gazebo_ros_plugins_msgs/SetFloat.srv
+[26/56] Generating C++ code from uuv_gazebo_ros_plugins_msgs/UnderwaterObjectModel.msg
+[27/56] Generating C++ code from uuv_gazebo_ros_plugins_msgs/SetThrusterEfficiency.srv
+[28/56] Generating C++ code from uuv_gazebo_ros_plugins_msgs/SetThrusterState.srv
+[29/56] Generating C++ code from uuv_gazebo_ros_plugins_msgs/SetUseGlobalCurrentVel.srv
+[30/56] Generating Python from MSG uuv_gazebo_ros_plugins_msgs/UnderwaterObjectModel
+[31/56] Generating Python code from SRV uuv_gazebo_ros_plugins_msgs/GetFloat
+[32/56] Generating Python code from SRV uuv_gazebo_ros_plugins_msgs/GetModelProperties
+[33/56] Generating Python code from SRV uuv_gazebo_ros_plugins_msgs/GetThrusterEfficiency
+[34/56] Generating Python code from SRV uuv_gazebo_ros_plugins_msgs/GetThrusterConversionFcn
+[35/56] Generating Python code from SRV uuv_gazebo_ros_plugins_msgs/GetThrusterState
+[36/56] Generating Python code from SRV uuv_gazebo_ros_plugins_msgs/SetFloat
+[37/56] Generating Python code from SRV uuv_gazebo_ros_plugins_msgs/SetThrusterState
+[38/56] Generating Python code from SRV uuv_gazebo_ros_plugins_msgs/SetThrusterEfficiency
+[39/56] Generating Python code from SRV uuv_gazebo_ros_plugins_msgs/SetUseGlobalCurrentVel
+[40/56] Generating Python srv __init__.py for uuv_gazebo_ros_plugins_msgs
+[41/56] Generating Python msg __init__.py for uuv_gazebo_ros_plugins_msgs
+[42/56] Building CXX object uuv_gazebo_ros_plugins_msgs/CMakeFiles/uuv_gazebo_ros_plugins_msgs_matlab.dir/src/uuv_gazebo_ros_plugins_msgs_ThrusterConversionFcn_message.cpp.o
+[43/56] Building CXX object uuv_gazebo_ros_plugins_msgs/CMakeFiles/uuv_gazebo_ros_plugins_msgs_matlab.dir/src/uuv_gazebo_ros_plugins_msgs_UnderwaterObjectModel_message.cpp.o
+[44/56] Building CXX object uuv_gazebo_ros_plugins_msgs/CMakeFiles/uuv_gazebo_ros_plugins_msgs_matlab.dir/src/uuv_gazebo_ros_plugins_msgs_FloatStamped_message.cpp.o
+[45/56] Building CXX object uuv_gazebo_ros_plugins_msgs/CMakeFiles/uuv_gazebo_ros_plugins_msgs_matlab.dir/src/uuv_gazebo_ros_plugins_msgs_GetFloat_service.cpp.o
+[46/56] Building CXX object uuv_gazebo_ros_plugins_msgs/CMakeFiles/uuv_gazebo_ros_plugins_msgs_matlab.dir/src/uuv_gazebo_ros_plugins_msgs_GetThrusterEfficiency_service.cpp.o
+[47/56] Building CXX object uuv_gazebo_ros_plugins_msgs/CMakeFiles/uuv_gazebo_ros_plugins_msgs_matlab.dir/src/uuv_gazebo_ros_plugins_msgs_GetThrusterConversionFcn_service.cpp.o
+[48/56] Building CXX object uuv_gazebo_ros_plugins_msgs/CMakeFiles/uuv_gazebo_ros_plugins_msgs_matlab.dir/src/uuv_gazebo_ros_plugins_msgs_GetModelProperties_service.cpp.o
+[49/56] Building CXX object uuv_gazebo_ros_plugins_msgs/CMakeFiles/uuv_gazebo_ros_plugins_msgs_matlab.dir/src/uuv_gazebo_ros_plugins_msgs_GetListParam_service.cpp.o
+[50/56] Building CXX object uuv_gazebo_ros_plugins_msgs/CMakeFiles/uuv_gazebo_ros_plugins_msgs_matlab.dir/src/uuv_gazebo_ros_plugins_msgs_GetThrusterState_service.cpp.o
+[51/56] Building CXX object uuv_gazebo_ros_plugins_msgs/CMakeFiles/uuv_gazebo_ros_plugins_msgs_matlab.dir/src/uuv_gazebo_ros_plugins_msgs_SetThrusterEfficiency_service.cpp.o
+[52/56] Building CXX object uuv_gazebo_ros_plugins_msgs/CMakeFiles/uuv_gazebo_ros_plugins_msgs_matlab.dir/src/uuv_gazebo_ros_plugins_msgs_SetThrusterState_service.cpp.o
+[53/56] Building CXX object uuv_gazebo_ros_plugins_msgs/CMakeFiles/uuv_gazebo_ros_plugins_msgs_matlab.dir/src/uuv_gazebo_ros_plugins_msgs_SetFloat_service.cpp.o
+[54/56] Building CXX object uuv_gazebo_ros_plugins_msgs/CMakeFiles/uuv_gazebo_ros_plugins_msgs_matlab.dir/src/uuv_gazebo_ros_plugins_msgs_SetUseGlobalCurrentVel_service.cpp.o
+[55/56] Linking CXX shared library /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/devel/lib/libuuv_gazebo_ros_plugins_msgs_matlab.so
+[55/56] Install the project...
+-- Install configuration: "Release"
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/_setup_util.py
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/env.sh
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/setup.bash
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/local_setup.bash
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/setup.sh
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/local_setup.sh
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/setup.zsh
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/local_setup.zsh
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/.rosinstall
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/share/uuv_gazebo_ros_plugins_msgs/msg/FloatStamped.msg
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/share/uuv_gazebo_ros_plugins_msgs/msg/ThrusterConversionFcn.msg
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/share/uuv_gazebo_ros_plugins_msgs/msg/UnderwaterObjectModel.msg
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/share/uuv_gazebo_ros_plugins_msgs/srv/GetFloat.srv
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/share/uuv_gazebo_ros_plugins_msgs/srv/GetListParam.srv
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/share/uuv_gazebo_ros_plugins_msgs/srv/GetModelProperties.srv
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/share/uuv_gazebo_ros_plugins_msgs/srv/GetThrusterConversionFcn.srv
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/share/uuv_gazebo_ros_plugins_msgs/srv/GetThrusterEfficiency.srv
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/share/uuv_gazebo_ros_plugins_msgs/srv/GetThrusterState.srv
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/share/uuv_gazebo_ros_plugins_msgs/srv/SetFloat.srv
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/share/uuv_gazebo_ros_plugins_msgs/srv/SetThrusterEfficiency.srv
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/share/uuv_gazebo_ros_plugins_msgs/srv/SetThrusterState.srv
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/share/uuv_gazebo_ros_plugins_msgs/srv/SetUseGlobalCurrentVel.srv
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/share/uuv_gazebo_ros_plugins_msgs/cmake/uuv_gazebo_ros_plugins_msgs-msg-paths.cmake
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/include/uuv_gazebo_ros_plugins_msgs
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/include/uuv_gazebo_ros_plugins_msgs/GetModelPropertiesRequest.h
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/include/uuv_gazebo_ros_plugins_msgs/GetListParam.h
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/include/uuv_gazebo_ros_plugins_msgs/ThrusterConversionFcn.h
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/include/uuv_gazebo_ros_plugins_msgs/GetThrusterStateRequest.h
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/include/uuv_gazebo_ros_plugins_msgs/FloatStamped.h
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/include/uuv_gazebo_ros_plugins_msgs/GetFloatRequest.h
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/include/uuv_gazebo_ros_plugins_msgs/SetThrusterStateRequest.h
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/include/uuv_gazebo_ros_plugins_msgs/GetModelPropertiesResponse.h
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/include/uuv_gazebo_ros_plugins_msgs/GetListParamResponse.h
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/include/uuv_gazebo_ros_plugins_msgs/SetThrusterEfficiency.h
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/include/uuv_gazebo_ros_plugins_msgs/GetListParamRequest.h
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/include/uuv_gazebo_ros_plugins_msgs/SetUseGlobalCurrentVelRequest.h
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/include/uuv_gazebo_ros_plugins_msgs/UnderwaterObjectModel.h
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/include/uuv_gazebo_ros_plugins_msgs/SetThrusterEfficiencyRequest.h
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/include/uuv_gazebo_ros_plugins_msgs/GetThrusterConversionFcn.h
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/include/uuv_gazebo_ros_plugins_msgs/SetFloatResponse.h
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/include/uuv_gazebo_ros_plugins_msgs/SetUseGlobalCurrentVel.h
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/include/uuv_gazebo_ros_plugins_msgs/GetThrusterConversionFcnResponse.h
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/include/uuv_gazebo_ros_plugins_msgs/SetThrusterEfficiencyResponse.h
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/include/uuv_gazebo_ros_plugins_msgs/GetThrusterStateResponse.h
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/include/uuv_gazebo_ros_plugins_msgs/GetThrusterEfficiency.h
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/include/uuv_gazebo_ros_plugins_msgs/SetThrusterStateResponse.h
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/include/uuv_gazebo_ros_plugins_msgs/GetFloatResponse.h
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/include/uuv_gazebo_ros_plugins_msgs/SetUseGlobalCurrentVelResponse.h
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/include/uuv_gazebo_ros_plugins_msgs/SetThrusterState.h
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/include/uuv_gazebo_ros_plugins_msgs/GetThrusterEfficiencyResponse.h
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/include/uuv_gazebo_ros_plugins_msgs/GetThrusterState.h
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/include/uuv_gazebo_ros_plugins_msgs/SetFloatRequest.h
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/include/uuv_gazebo_ros_plugins_msgs/GetModelProperties.h
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/include/uuv_gazebo_ros_plugins_msgs/GetFloat.h
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/include/uuv_gazebo_ros_plugins_msgs/GetThrusterEfficiencyRequest.h
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/include/uuv_gazebo_ros_plugins_msgs/GetThrusterConversionFcnRequest.h
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/include/uuv_gazebo_ros_plugins_msgs/SetFloat.h
+Listing /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/devel/lib/python2.7/dist-packages/uuv_gazebo_ros_plugins_msgs ...
+Compiling /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/devel/lib/python2.7/dist-packages/uuv_gazebo_ros_plugins_msgs/__init__.py ...
+Listing /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/devel/lib/python2.7/dist-packages/uuv_gazebo_ros_plugins_msgs/msg ...
+Compiling /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/devel/lib/python2.7/dist-packages/uuv_gazebo_ros_plugins_msgs/msg/_FloatStamped.py ...
+Compiling /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/devel/lib/python2.7/dist-packages/uuv_gazebo_ros_plugins_msgs/msg/_ThrusterConversionFcn.py ...
+Compiling /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/devel/lib/python2.7/dist-packages/uuv_gazebo_ros_plugins_msgs/msg/_UnderwaterObjectModel.py ...
+Compiling /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/devel/lib/python2.7/dist-packages/uuv_gazebo_ros_plugins_msgs/msg/__init__.py ...
+Listing /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/devel/lib/python2.7/dist-packages/uuv_gazebo_ros_plugins_msgs/srv ...
+Compiling /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/devel/lib/python2.7/dist-packages/uuv_gazebo_ros_plugins_msgs/srv/_GetFloat.py ...
+Compiling /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/devel/lib/python2.7/dist-packages/uuv_gazebo_ros_plugins_msgs/srv/_GetListParam.py ...
+Compiling /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/devel/lib/python2.7/dist-packages/uuv_gazebo_ros_plugins_msgs/srv/_GetModelProperties.py ...
+Compiling /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/devel/lib/python2.7/dist-packages/uuv_gazebo_ros_plugins_msgs/srv/_GetThrusterConversionFcn.py ...
+Compiling /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/devel/lib/python2.7/dist-packages/uuv_gazebo_ros_plugins_msgs/srv/_GetThrusterEfficiency.py ...
+Compiling /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/devel/lib/python2.7/dist-packages/uuv_gazebo_ros_plugins_msgs/srv/_GetThrusterState.py ...
+Compiling /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/devel/lib/python2.7/dist-packages/uuv_gazebo_ros_plugins_msgs/srv/_SetFloat.py ...
+Compiling /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/devel/lib/python2.7/dist-packages/uuv_gazebo_ros_plugins_msgs/srv/_SetThrusterEfficiency.py ...
+Compiling /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/devel/lib/python2.7/dist-packages/uuv_gazebo_ros_plugins_msgs/srv/_SetThrusterState.py ...
+Compiling /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/devel/lib/python2.7/dist-packages/uuv_gazebo_ros_plugins_msgs/srv/_SetUseGlobalCurrentVel.py ...
+Compiling /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/devel/lib/python2.7/dist-packages/uuv_gazebo_ros_plugins_msgs/srv/__init__.py ...
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/uuv_gazebo_ros_plugins_msgs
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/uuv_gazebo_ros_plugins_msgs/msg
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/uuv_gazebo_ros_plugins_msgs/msg/_FloatStamped.py
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/uuv_gazebo_ros_plugins_msgs/msg/_FloatStamped.pyc
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/uuv_gazebo_ros_plugins_msgs/msg/_UnderwaterObjectModel.py
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/uuv_gazebo_ros_plugins_msgs/msg/_ThrusterConversionFcn.py
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/uuv_gazebo_ros_plugins_msgs/msg/__init__.py
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/uuv_gazebo_ros_plugins_msgs/msg/__init__.pyc
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/uuv_gazebo_ros_plugins_msgs/msg/_UnderwaterObjectModel.pyc
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/uuv_gazebo_ros_plugins_msgs/msg/_ThrusterConversionFcn.pyc
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/uuv_gazebo_ros_plugins_msgs/__init__.py
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/uuv_gazebo_ros_plugins_msgs/__init__.pyc
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/uuv_gazebo_ros_plugins_msgs/srv
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/uuv_gazebo_ros_plugins_msgs/srv/_GetThrusterConversionFcn.pyc
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/uuv_gazebo_ros_plugins_msgs/srv/_GetModelProperties.pyc
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/uuv_gazebo_ros_plugins_msgs/srv/_SetThrusterState.py
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/uuv_gazebo_ros_plugins_msgs/srv/_GetThrusterEfficiency.py
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/uuv_gazebo_ros_plugins_msgs/srv/_GetThrusterState.pyc
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/uuv_gazebo_ros_plugins_msgs/srv/_SetThrusterState.pyc
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/uuv_gazebo_ros_plugins_msgs/srv/_SetUseGlobalCurrentVel.py
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/uuv_gazebo_ros_plugins_msgs/srv/_SetThrusterEfficiency.pyc
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/uuv_gazebo_ros_plugins_msgs/srv/_SetFloat.py
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/uuv_gazebo_ros_plugins_msgs/srv/_GetModelProperties.py
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/uuv_gazebo_ros_plugins_msgs/srv/__init__.py
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/uuv_gazebo_ros_plugins_msgs/srv/__init__.pyc
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/uuv_gazebo_ros_plugins_msgs/srv/_GetListParam.py
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/uuv_gazebo_ros_plugins_msgs/srv/_SetFloat.pyc
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/uuv_gazebo_ros_plugins_msgs/srv/_SetUseGlobalCurrentVel.pyc
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/uuv_gazebo_ros_plugins_msgs/srv/_GetThrusterState.py
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/uuv_gazebo_ros_plugins_msgs/srv/_SetThrusterEfficiency.py
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/uuv_gazebo_ros_plugins_msgs/srv/_GetFloat.pyc
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/uuv_gazebo_ros_plugins_msgs/srv/_GetThrusterEfficiency.pyc
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/uuv_gazebo_ros_plugins_msgs/srv/_GetThrusterConversionFcn.py
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/uuv_gazebo_ros_plugins_msgs/srv/_GetFloat.py
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/uuv_gazebo_ros_plugins_msgs/srv/_GetListParam.pyc
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/lib/pkgconfig/uuv_gazebo_ros_plugins_msgs.pc
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/share/uuv_gazebo_ros_plugins_msgs/cmake/uuv_gazebo_ros_plugins_msgs-msg-extras.cmake
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/share/uuv_gazebo_ros_plugins_msgs/cmake/uuv_gazebo_ros_plugins_msgsConfig.cmake
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/share/uuv_gazebo_ros_plugins_msgs/cmake/uuv_gazebo_ros_plugins_msgsConfig-version.cmake
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/share/uuv_gazebo_ros_plugins_msgs/package.xml
+-- Up-to-date: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/include
+-- Up-to-date: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/include/uuv_gazebo_ros_plugins_msgs
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/include/uuv_gazebo_ros_plugins_msgs/visibility_control.h
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/lib/libuuv_gazebo_ros_plugins_msgs_matlab.so
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/m/
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/m//+ros
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+uuv_gazebo_ros_plugins_msgs
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+uuv_gazebo_ros_plugins_msgs/GetThrusterStateResponse.m
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+uuv_gazebo_ros_plugins_msgs/GetThrusterStateRequest.m
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+uuv_gazebo_ros_plugins_msgs/SetThrusterStateResponse.m
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+uuv_gazebo_ros_plugins_msgs/SetUseGlobalCurrentVelRequest.m
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+uuv_gazebo_ros_plugins_msgs/GetModelPropertiesRequest.m
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+uuv_gazebo_ros_plugins_msgs/UnderwaterObjectModel.m
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+uuv_gazebo_ros_plugins_msgs/GetThrusterEfficiencyRequest.m
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+uuv_gazebo_ros_plugins_msgs/SetThrusterStateRequest.m
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+uuv_gazebo_ros_plugins_msgs/GetThrusterConversionFcnRequest.m
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+uuv_gazebo_ros_plugins_msgs/SetUseGlobalCurrentVelResponse.m
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+uuv_gazebo_ros_plugins_msgs/GetModelPropertiesResponse.m
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+uuv_gazebo_ros_plugins_msgs/FloatStamped.m
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+uuv_gazebo_ros_plugins_msgs/GetFloatRequest.m
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+uuv_gazebo_ros_plugins_msgs/GetThrusterEfficiencyResponse.m
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+uuv_gazebo_ros_plugins_msgs/GetFloatResponse.m
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+uuv_gazebo_ros_plugins_msgs/GetListParamRequest.m
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+uuv_gazebo_ros_plugins_msgs/SetFloatRequest.m
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+uuv_gazebo_ros_plugins_msgs/GetListParamResponse.m
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+uuv_gazebo_ros_plugins_msgs/GetThrusterConversionFcnResponse.m
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+uuv_gazebo_ros_plugins_msgs/ThrusterConversionFcn.m
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+uuv_gazebo_ros_plugins_msgs/SetThrusterEfficiencyRequest.m
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+uuv_gazebo_ros_plugins_msgs/SetThrusterEfficiencyResponse.m
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+uuv_gazebo_ros_plugins_msgs/SetFloatResponse.m
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+uuv_gazebo_ros_plugins_msgs
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+uuv_gazebo_ros_plugins_msgs/setUseGlobalCurrentVelRequest.m
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+uuv_gazebo_ros_plugins_msgs/getListParamResponse.m
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+uuv_gazebo_ros_plugins_msgs/getModelPropertiesResponse.m
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+uuv_gazebo_ros_plugins_msgs/setFloatResponse.m
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+uuv_gazebo_ros_plugins_msgs/setThrusterEfficiencyRequest.m
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+uuv_gazebo_ros_plugins_msgs/thrusterConversionFcn.m
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+uuv_gazebo_ros_plugins_msgs/setThrusterStateRequest.m
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+uuv_gazebo_ros_plugins_msgs/setThrusterEfficiencyResponse.m
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+uuv_gazebo_ros_plugins_msgs/setUseGlobalCurrentVelResponse.m
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+uuv_gazebo_ros_plugins_msgs/underwaterObjectModel.m
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+uuv_gazebo_ros_plugins_msgs/setFloatRequest.m
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+uuv_gazebo_ros_plugins_msgs/getListParamRequest.m
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+uuv_gazebo_ros_plugins_msgs/getThrusterEfficiencyResponse.m
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+uuv_gazebo_ros_plugins_msgs/setThrusterStateResponse.m
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+uuv_gazebo_ros_plugins_msgs/floatStamped.m
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+uuv_gazebo_ros_plugins_msgs/getThrusterEfficiencyRequest.m
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+uuv_gazebo_ros_plugins_msgs/getThrusterConversionFcnRequest.m
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+uuv_gazebo_ros_plugins_msgs/getThrusterStateResponse.m
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+uuv_gazebo_ros_plugins_msgs/getThrusterStateRequest.m
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+uuv_gazebo_ros_plugins_msgs/getFloatRequest.m
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+uuv_gazebo_ros_plugins_msgs/getThrusterConversionFcnResponse.m
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+uuv_gazebo_ros_plugins_msgs/getModelPropertiesRequest.m
+-- Installing: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+uuv_gazebo_ros_plugins_msgs/getFloatResponse.m
+Base path: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64
+Source space: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/src
+Build space: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/build
+Devel space: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/devel
+Install space: /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install
+Creating symlink "/home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/src/CMakeLists.txt" pointing to "/usr/local/Polyspace/R2021a/sys/ros1/glnxa64/ros1/share/catkin/cmake/toplevel.cmake"
+####
+#### Running command: "cmake /home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/src -DBoost_NAMESPACE=mwboost -DCATKIN_ENABLE_TESTING=off -DCMAKE_PREFIX_PATH=/usr/local/Polyspace/R2021a/sys/ros1/glnxa64/ros1;/usr/local/Polyspace/R2021a/toolbox/ros/mlroscpp/custom_messages -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS_RELEASE=-O0 -DCATKIN_DEVEL_PREFIX=/home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/devel -DCMAKE_INSTALL_PREFIX=/home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/install -G Ninja" in "/home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/build"
+####
+####
+#### Running command: "ninja install install -j8 -l8" in "/home/fyp/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/matlab_msg_gen_ros1/glnxa64/build"
+####

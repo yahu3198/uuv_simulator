@@ -36,7 +36,7 @@ if __name__ == '__main__':
 
     assert values['component'] in ['velocity', 'horz_angle', 'vert_angle']
     if values['component'] == 'velocity':
-        assert values['mean'] > 0
+        assert values['mean'] >= 0
     else:
         values['min'] *= pi / 180.0
         values['max'] *= pi / 180.0
